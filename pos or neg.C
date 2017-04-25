@@ -6,17 +6,13 @@ void main
 int a;
 clrscr();
 scanf("%d",&a);
-if(a>0)
+if(a%2==0)
 {
-printf("Positive");
-}
-else if(a<0)
-{
-printf("Negative");
+printf("Even");
 }
 else
 {
-printf("Neither positive nor negative");
+printf("Odd");
 }
 getch();
 }
